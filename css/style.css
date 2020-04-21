@@ -89,8 +89,8 @@ body {
     letter-spacing: -0.2px;
     color: #7E7E82;
     margin-right: 19.56px;
-
-
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
 }
 /* Intro styles end */
 
