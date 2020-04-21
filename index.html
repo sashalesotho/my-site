@@ -1,33 +1,99 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-<meta charset="utf-8">
-<link href="style.css" rel="stylesheet">
-<title>чекбокс</title>
-</head>
-<body>
-    <label class="check option">
-        <input class="check_input" type="checkbox" name="checkbox">
-        <span class="check_box"></span>
-        первый
-    </label>
-        
-    <label class="check option">
-        <input class="check_input" type="checkbox" name="checkbox" checked>
-        <span class="check_box"></span>
-        второй
-    </label>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Services</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./fonts/TTLakes/stylesheet.css">
+    </head>
+    <body>
+      <header class="header">
+        <div class="wrapper">
+          <div class="header__wrapper">
+            <nav class="header__nav">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="#!" class="header__link">
+                    <img src="./img/burger.svg" alt="burger" class="header__icon">
+                  </a>
+                </li>
+                <li class="header__logo">
+                  <a href="/" class="header__logo link">
+                    <img src="./img/cps.svg" alt="CPS" class="header__logo pic">
+                  </a>
+                </li>
+                <li class="header__item"></li>
+                    <img src="./img/divider.svg" alt="divider" class="header__icon pic">
+                </li>
+                <li class="header__item">
+                  <a href="#!" class="header__link">
+                    <img src="./img/repair.svg" alt="repair" class="header__icon">
+                  </a>
+                </li>
+                <li class="header__item">
+                  <a href="#!" class="header__link">
+                    <img src="./img/checkstatus.svg" alt="checkstatus" class="header__icon">
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="intro">
+          <div class="wrapper">
+            <h1 class="intro__title">Услуги и сервисы</h1>
+            <form class="intro-buttons">
+                  <button class="intro-buttons__button">
+                    Ремонтируемые устройства
+                  </button>
+                  <button class="intro-buttons__button">
+                    Дополнительные услуги
+                  </button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </body>
+  <!--
+    <body>
+          <header class="header">
+            <nav class="menu header__menu">
+              <div class="menu__icon-burger"></div>
+              <div class="menu__logo"></div>
+              <div class="menu__divider"></div>
+              <div class="menu__icon-repair"></div>
+              <div class="menu__icon-checkstatus"></div>
 
-    <label class="check option">
-        <input class="check_input" type="checkbox" name="checkbox" disabled>
-        <span class="check_box"></span>
-        третий
-    </label>
-        
-    <label class="check option">
-        <input class="check_input" type="checkbox" name="checkbox" checked disabled>
-        <span class="check_box"></span>
-        четвертый
-    </label>
-</body>
-</html> 
+            </nav>
+
+          </header>
+          <main class="main">
+            <div class="container main__container">
+              <div class="container__title">
+                <h1>Услуги и сервисы</h1>
+              </div>
+              <div class="container">
+                <div class="container__button1">Ремонтируемые устройства</div>
+                <div class="container__button2">Дополнительные услуги</div>
+                <div class="container__button3"></div>
+                <div class="container__button4"></div>
+                <div class="container__button5"></div>
+              </div>
+              <div class="container__text">
+                Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+              </div>
+              <div class="container__read-more"></div>
+              <div class="container__img"></div>
+            </div>
+
+
+          </main>
+         
+    </body>
+-->  
+</html>
