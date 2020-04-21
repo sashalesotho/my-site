@@ -23,6 +23,8 @@ body {
 .wrapper {
     margin: 0 auto;
     max-width: 320px;
+    max-height: 597px;
+    
 }
 
 /* Header styles start */
@@ -62,11 +64,12 @@ body {
     width: 320px;
     margin: 0 auto;
     padding-top: 24px;
+    font-family: TT Lakes;
+
 }
 
 .intro__title {
     max-width: 304px;
-    font-family: TT Lakes;
     color: #1B1C21;
     font-size: 28px;
     font-weight: 700;
@@ -80,6 +83,7 @@ body {
     display: flex;
     justify-content: space-around;
     max-width: 320px;
+    margin-bottom: 24px;
     
 
 }
@@ -102,6 +106,30 @@ body {
     border-radius: 6px;
     background-color: #FFFFFF;
 }
+
+.intro__text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+    margin-bottom: 16px;
+}
+
+.intro__read-more {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: ;
+    align-items: center;
+}
+
+.intro__icon {
+    padding-right: 16px;
+    padding-left: 24px;
+}
+
+
 /* Intro styles end */
 
 
