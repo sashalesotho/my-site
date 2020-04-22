@@ -20,55 +20,55 @@ html,
 .icons__icon--burger {
     width: 40px;
     height: 40px;
-    background-image: url(./img/burger.svg);
+    background-image: url(/my-site/img/burger.svg);
     background-repeat: no-repeat;
 }
 
 .icons__icon--logo {
     width: 1000px;
     height: 60px;
-    background-image: url(./img/cps.svg);
+    background-image: url(/my-site/img/cps.svg);
     background-repeat: no-repeat;
 }
 
 .icons__icon--divider {
     width: 3px;
     height: 40px;
-    background-image: url(./img/divider.svg);
+    background-image: url(/my-site/img/divider.svg);
 }
 
 .icons__icon--repair {
     width: 40px;
     height: 40px;
-    background-image: url(./img/repair.svg);
+    background-image: url(/my-site/img/repair.svg);
     background-repeat: no-repeat;
 }
 
 .icons__icon--checkstatus {
     width: 40px;
     height: 40px;
-    background-image: url(./img/checkstatus.svg);
+    background-image: url(/my-site/img/checkstatus.svg);
     background-repeat: no-repeat;
 }
 
 .icons__icon--call {
     width: 40px;
     height: 40px;
-    background-image: url(./img/call.svg);
+    background-image: url(/my-site/img/call.svg);
     background-repeat: no-repeat;
 }
 
 .icons__icon--chat {
     width: 40px;
     height: 40px;
-    background-image: url(./img/chat.svg);
+    background-image: url(/my-site/img/chat.svg);
     background-repeat: no-repeat;
 }
 
 .icons__icon--profile {
     width: 40px;
     height: 40px;
-    background-image: url(./img/profile.svg);
+    background-image: url(/my-site/img/profile.svg);
     background-repeat: no-repeat;
 }
 
