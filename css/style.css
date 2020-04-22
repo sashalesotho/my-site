@@ -110,7 +110,7 @@
     left: -15px;
 }
 
-.head-md::after {
+.head-md::before {
     content: "";
     width: 100%;
     height: 1px;
