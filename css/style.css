@@ -109,7 +109,7 @@
     left: -15px;
 }
 
-/* sm (>=576 и <=767 */
+/* sm (>=576 и <=767) */
 
 @media (min-width: 576px) and (max-width: 767px) {
     .icons__icon--md {
