@@ -92,6 +92,8 @@
     background-color: #FFFFFF;
     padding: 20px;
     justify-content: space-around;
+    box-shadow: 0 0 2px 2px #D9FFF5;
+
 }
 
 .head-md {
@@ -129,6 +131,10 @@
     .icons__icon--logo {
         flex-basis: 40%;
     }
+    .icons {
+        box-shadow: 0 0 2px 2px #D9FFF5;
+    }
+    
 }
 
 /* md (>=768 и <=991) */
@@ -150,6 +156,10 @@
     .icons__icon--logo {
         flex-basis: 40%;
     }
+    .icons {
+        box-shadow: 0 0 2px 2px #D9FFF5;
+    }
+    
 
 }
 
@@ -174,6 +184,8 @@
         max-width: 100%;
         display: flex;
         justify-content: space-between;
+        box-shadow: none;
+        
     }
     .icons__header {
         flex-basis: 59%;
@@ -234,6 +246,7 @@
         max-width: 100%;
         display: flex;
         justify-content: space-between;
+        box-shadow: none;
     }
     
     .icons__header {
