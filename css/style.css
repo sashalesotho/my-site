@@ -102,7 +102,7 @@
 }
 
 .head-md::before {
-    content: "";
+    content: " ";
     width: 4px;
     height: 40px;
     background-image: url(../img/highlight.svg);
@@ -184,7 +184,7 @@
         position: relative;
     }
     .icons__head::before {
-        content: "";
+        content: " ";
         width: 6px;
         height: 50px;
         background-image: url(../img/highlight.svg);
@@ -245,7 +245,7 @@
         position: relative;
     }
     .icons__head::before {
-        content: "";
+        content: " ";
         width: 6px;
         height: 50px;
         background-image: url(../img/highlight.svg);
@@ -417,14 +417,14 @@ html,
 }
 
 .content__link::before {
-    content: ' ';
+    content: " ";
     background-image: url(../img/expand.svg);
     background-repeat: no-repeat;
     width: 50px;
     height: 40px;
     position: absolute;
-    left: -30px;
-    top: -4px;
+    left: -20px;
+    top: 4px;
 }
 
 .content__el--md {
