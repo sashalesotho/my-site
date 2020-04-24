@@ -282,15 +282,15 @@ html,
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .body {
-        box-sizing: border-box;
-        overflow: visible;
-        margin: 0;
-    }
-    .main {
-        margin-top: 50px;
-        margin-left: 32px;
-        margin-right: 28px;
+.body {
+    box-sizing: border-box;
+    overflow: visible;
+    margin: 0;
+}
+.main {
+    margin-top: 50px;
+    margin-left: 32px;
+    margin-right: 28px;
     }
 }
 
@@ -417,7 +417,7 @@ html,
 }
 
 .content__link::before {
-    content: "";
+    content: ' ';
     background-image: url(../img/expand.svg);
     background-repeat: no-repeat;
     width: 50px;
