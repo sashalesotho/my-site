@@ -10,34 +10,34 @@
 
 /* Header styles start */
 
-.icons__icon--burger {
+.header__icon-burger {
     width: 40px;
     height: 40px;
     background-image: url(../img/burger.svg);
     background-repeat: no-repeat;
 }
 
-.icons__icon--logo {
+.header__logo {
     width: 100px;
     height: 60px;
     background-image: url(../img/cps.svg);
     background-repeat: no-repeat;
 }
 
-.icons__icon--divider {
+.header__divider {
     width: 3px;
     height: 40px;
     background-image: url(../img/divider.svg);
 }
 
-.icons__icon--repair {
+.header__icon-repair {
     width: 40px;
     height: 40px;
     background-image: url(../img/repair.svg);
     background-repeat: no-repeat;
 }
 
-.icons__icon--checkstatus {
+.header__icon-checkstatus {
     width: 40px;
     height: 40px;
     background-image: url(../img/checkstatus.svg);
@@ -45,49 +45,49 @@
 }
 
 
-.icons__icon--call {
+.header__icon-call {
     width: 40px;
     height: 40px;
     background-image: url(../img/call.svg);
     background-repeat: no-repeat;
 }
 
-.icons__icon--chat {
+.header__icon-chat {
     width: 40px;
     height: 40px;
     background-image: url(../img/chat.svg);
     background-repeat: no-repeat;
 }
 
-.icons__icon--profile {
+.header__icon-profile {
     width: 40px;
     height: 40px;
     background-image: url(../img/profile.svg);
     background-repeat: no-repeat;
 }
 
-.icons__icon--lg {
+.header__icon-lg {
     display: none;
 }
 
-.icons__icon--md {
+.header__icon-md {
     display: none;
 }
 
-.icons__link {
+.header__link {
     display: none;
 }
 
-.icons__header {
+.header__caption {
     display: none;
 }
 
-.icons__icon--sm {
+.header__icon-sm {
     display: block;
     align-self: center;
 }
 
-.icons {
+.header {
     display: flex;
     background-color: #FFFFFF;
     padding: 20px;
@@ -96,14 +96,14 @@
 
 }
 
-.head-md {
+.caption__caption-md {
     font-size: 28px;
     margin-top: 24px;
     margin-left: 20px;
     position: relative;
 }
 
-.head-md::before {
+.caption__caption-md::before {
     content: " ";
     width: 4px;
     height: 40px;
@@ -115,23 +115,23 @@
 /* sm (>=576 и <=767) */
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .icons__icon--md {
+    .header__icon-md {
         display: block;
     }
-    .icons__icon--lg {
+    .header__icon-lg {
         display: none;
     }
-    .icons__icon--sm {
+    .header__icon-sm {
         display: none;
     }
-    .icons__icon--md {
+    .header__icon-md {
         display: block;
         align-self: center;
     }
-    .icons__icon--logo {
+    .header__icon-logo {
         flex-basis: 40%;
     }
-    .icons {
+    .header {
         box-shadow: 0 0 2px 2px #D9FFF5;
     }
     
@@ -140,23 +140,23 @@
 /* md (>=768 и <=991) */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .icons__icon--md {
+    .header__icon-md {
         display: block;
     }
-    .icons__icon--lg {
+    .header__icon-lg {
         display: none;
     }
-    .icons__icon--sm {
+    .header__icon-sm {
         display: none;
     }
-    .icons__icon--md {
+    .header__icon-md {
         display: block;
         align-self: center;
     }
-    .icons__icon--logo {
+    .header__icon-logo {
         flex-basis: 40%;
     }
-    .icons {
+    .header {
         box-shadow: 0 0 2px 2px #D9FFF5;
     }
     
@@ -166,19 +166,19 @@
 /* lg (>=992 и <=1199) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .icons__icon--sm {
+    .header__icon-sm {
         display: none;
     }
-    .icons__icon--lg {
+    .header__icon-lg {
         display: block;
     }
-    .icons__header {
+    .header__caption {
         display: block;
     }
-    .icons__link {
+    .header__link {
         display: block;
     }
-    .icons {
+    .header {
         background-color: #f8f8f8;
         padding: 0;
         max-width: 100%;
@@ -187,15 +187,15 @@
         box-shadow: none;
         
     }
-    .icons__header {
+    .header__caption {
         flex-basis: 59%;
     }
-    .icons__head {
+    .header__caption-lg {
         margin: 0;
         font-size: 28px;
         position: relative;
     }
-    .icons__head::before {
+    .header__caption-lg::before {
         content: " ";
         width: 6px;
         height: 50px;
@@ -205,7 +205,7 @@
         top: -5px;
     }
     
-    .icons__link {
+    .header__link {
         display: block;
         text-decoration: none;
         color: #1B1C21;
@@ -214,12 +214,12 @@
     }
     
     
-    .head-md {
+    .caption__caption-md {
         display: none;
     }
 }
-    @media (min-width: 992px) and (max-width:1030px) {
-    .icons__header {
+@media (min-width: 992px) and (max-width:1030px) {
+    .header__caption {
         flex-basis: 55%;
     }
 }
@@ -228,19 +228,19 @@
 
 @media (min-width: 1200px) {
    
-    .icons__icon--sm {
+    .header__icon-sm {
         display: none;
     }
-    .icons__icon--lg {
+    .header__icon-lg {
         display: block;
     }
-    .icons__header {
+    .header__caption {
         display: block;
     }
-    .icons__link {
+    .header__link {
         display: block;
     }
-    .icons {
+    .header {
         background-color: #f8f8f8;
         padding: 0;
         max-width: 100%;
@@ -249,15 +249,15 @@
         box-shadow: none;
     }
     
-    .icons__header {
+    .header__caption {
         flex-basis: 65%;
     }
-    .icons__head {
+    .header__caption-lg {
         margin: 0;
         font-size: 28px;
         position: relative;
     }
-    .icons__head::before {
+    .header__caption-lg::before {
         content: " ";
         width: 6px;
         height: 50px;
@@ -267,7 +267,7 @@
         top: -5px;
     }
     
-    .icons__link {
+    .header__link {
         display: block;
         text-decoration: none;
         color: #1B1C21;
@@ -276,7 +276,7 @@
     }
     
 
-    .head-md {
+    .caption__caption-md {
         display: none;
     }
 }
@@ -440,7 +440,7 @@ html,
     top: 4px;
 }
 
-.content__el--md {
+.content__el-md {
     display: none;
 }
 
@@ -448,7 +448,7 @@ html,
     margin-top: 20px;
 }
 
-.content__img--el {
+.content__img-el {
     width: 100%;
     margin: 0;
     border-radius: 6px;
@@ -465,11 +465,11 @@ html,
         margin-left: 0;
         margin-right: 0; 
     }
-    .content__el--md {
+    .content__el-md {
         display: block;
         margin-top: -5px;
     }
-    .content__el--lg {
+    .content__el-lg {
         display: none;
     }
     .content__image-block {
@@ -491,14 +491,14 @@ html,
         margin-left: 0;
         margin-right: 24px;
     }
-    .content__el--md {
+    .content__el-md {
         display: block;
         margin-top: -5px;
     }
     .content__image-block {
         flex-basis: 50%;
     }
-    .content__img--el {
+    .content__img-el {
         border-radius: 6px;
         width: 100%;
     }
