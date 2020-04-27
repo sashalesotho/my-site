@@ -8,7 +8,6 @@
 	margin: 0;
 	width: 100%;
 	min-width: 320px;
-	overflow: hidden;
 	position: relative;
 }
 
@@ -261,6 +260,12 @@
 		 margin-right: 28px;
 
 		 }
+
+	.content__text {
+		display: flex;
+		flex-direction: column;
+		}
+	
 	}
 
 	@media (min-width: 1200px) {
@@ -273,6 +278,10 @@
 			  margin-right: 28px;
 			  position: relative;
 		 }
+		 .content__text {
+			display: flex;
+			flex-direction: column;
+			}
 	}
 
 .caption
@@ -309,6 +318,13 @@
 }
 
 @media (max-width: 768px) {
+	.content {
+		display: flex;
+	}
+	.content__text {
+		display: flex;
+		flex-direction: column;
+	}
 	.menu {
 		 overflow-y: auto;
 		 margin-left: 20px;
@@ -336,6 +352,11 @@
 		 flex-wrap: wrap;
 		 justify-content: space-between;
 	}
+	.content__text {
+		display: flex;
+		flex-direction: column;
+		}
+
 }
 
 @media (min-width: 1200px) {
@@ -351,6 +372,10 @@
 	.menu__item {
 		 box-sizing: border-box;
 	}
+	.content__text {
+		display: flex;
+		flex-direction: column;
+		}
 
 }
 
