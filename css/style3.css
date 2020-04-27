@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 20px;
+    justify-content: space-around;
+    box-shadow: 0 2px 2px 2px #D9FFF5;
+
+}
+
+
+.header__icon-burger {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/burger.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.header__logo {
+    width: 100px;
+    height: 60px;
+    background-image: url(../img/cps.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.header__divider {
+    width: 3px;
+    height: 40px;
+    background-image: url(../img/divider.svg);
+    margin: 20px;
+}
+
+.header__icon-repair {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/repair.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+.header__icon-checkstatus {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/checkstatus.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+
+.header__icon-call {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/call.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.header__icon-chat {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/chat.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.header__icon-profile {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/profile.svg);
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.header__left-block {
+    display: flex;
+    justify-content: center;
+    
+}
+.header__contacts {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.header__setting {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.caption__el {
+    font-size: 28px;
+    position: relative;
+    top: 24px;
+}
+
+.caption__el::before {
+    content: " ";
+    width: 4px;
+    height: 40px;
+    background-image: url(../img/highlight.svg);
+    position: absolute;
+    left: -15px;
+}
+

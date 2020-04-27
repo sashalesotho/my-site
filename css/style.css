@@ -100,18 +100,17 @@
     background-color: #FFFFFF;
     padding: 20px;
     justify-content: space-around;
-    box-shadow: 0 0 2px 2px #D9FFF5;
+    box-shadow: 0 4px 0 -2px #D9FFF5;
 
 }
 
-.caption__caption-md {
+.caption__el {
     font-size: 28px;
-    margin-top: 24px;
-    margin-left: 20px;
-    position: relative;
+    position: absolute;
+    top: 24px;
 }
 
-.caption__caption-md::before {
+.caption__el::before {
     content: " ";
     width: 4px;
     height: 40px;
@@ -122,9 +121,7 @@
 .header__link {
     display: none;
 }
-.caption__caption-md {
-    display: none;
-}
+
 
 /* sm (>=576 и <=767) */
 
@@ -207,9 +204,7 @@
         justify-content: space-between;
         
     }
-    .header__caption {
-        display: block;
-    }
+    
     .header__link {
         display: block;
     }
@@ -222,23 +217,7 @@
         box-shadow: none;
         
     }
-    .header__caption {
-        flex-basis: 59%;
-    }
-    .header__caption-lg {
-        margin: 0;
-        font-size: 28px;
-        position: relative;
-    }
-    .header__caption-lg::before {
-        content: " ";
-        width: 6px;
-        height: 50px;
-        background-image: url(../img/highlight.svg);
-        position: absolute;
-        left: -35px;
-        top: -5px;
-    }
+    
     
     .header__link {
         display: block;
@@ -249,13 +228,9 @@
         padding: 20px;
     }
     
-    
-    .caption__caption-md {
-        display: none;
-    }
 }
 @media (min-width: 992px) and (max-width:1030px) {
-    .header__caption {
+    .caption {
         flex-basis: 55%;
     }
 }
@@ -276,9 +251,7 @@
         justify-content: space-between;
         
     }
-    .header__caption {
-        display: block;
-    }
+    
     .header__link {
         display: block;
     }
@@ -291,15 +264,13 @@
         box-shadow: none;
     }
     
-    .header__caption {
+    .caption__el {
         flex-basis: 65%;
+        position: absolute;
+        left: 32px;
+        top: 42px;
     }
-    .header__caption-lg {
-        margin: 0;
-        font-size: 28px;
-        position: relative;
-    }
-    .header__caption-lg::before {
+    .caption__el::before {
         content: " ";
         width: 6px;
         height: 50px;
@@ -318,9 +289,7 @@
     }
     
 
-    .caption__caption-md {
-        display: none;
-    }
+    
 }
 
 /* Header styles end */
@@ -346,6 +315,7 @@ html,
     margin-top: 50px;
     margin-left: 32px;
     margin-right: 28px;
+    
     }
 }
 
@@ -358,6 +328,7 @@ html,
         margin-top: 50px;
         margin-left: 32px;
         margin-right: 28px;
+        position: relative;
     }
 }
 /* Main styles end */
