@@ -3,7 +3,7 @@
 	background-color: #f8f8f8;
 	margin: 0;
 	box-sizing: border-box;
-	height: 100%
+  
 }
 
 .top-icons__burger {
@@ -62,7 +62,6 @@
 .bottom-icons {
 	display: flex;
 	justify-content: space-between;
-	margin-top: auto;
 }
 
 .bottom-icons__profile {
@@ -83,9 +82,7 @@
 }
 
 .menu {
-  width: 272px;
-	height: auto;
-	min-height: 100vh;
+	width: 272px;
 	background-color: #ffffff;
 	position: absolute;
 	left: 0;
@@ -94,9 +91,10 @@
 	padding-bottom: 32px;
 	padding-right: 24px;
 	box-shadow: 10px 0px 20px  0 #c2c1be;
-	display: flex;
-	flex-flow: column nowrap;
+	min-height: 100vh;
+	height: auto;
 	box-sizing: border-box;
+
 }
 
 .menu__list {
@@ -106,7 +104,8 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-bottom: 20px;
+	margin-bottom: 268px;
+
 }
 
 .menu__link {
@@ -145,53 +144,56 @@
 }
 
 .footer {
-  margin-top: 16px;
-  display: flex;
-  flex-direction: column;
-  margin-top: auto;
+	margin-top: auto;
+	display: flex;
+	flex-direction: column;
+
 }
 
 .footer__item-mail {
-  font-size: 16px;
-  color: #1B1C21;
-  line-height: 24px;
-  letter-spacing: -0.2px;
+	font-size: 16px;
+	color: #1B1C21;
+	line-height: 24px;
+	letter-spacing: -0.2px;
 }
 
 .footer__item-tel {
-  font-size: 24px;
-  color: #1B1C21;
-  letter-spacing: -0.6px;
-  flex-basis: 50%;
-  font-weight: bold;
-  margin-bottom: 40px;
-  margin-top: 12px;
+	font-size: 24px;
+	list-style: 32px;
+	color: #1B1C21;
+	letter-spacing: -0.6px;
+	flex-basis: 50%;
+	font-weight: bold;
+	margin-bottom: 40px;
+	margin-top: 12px;
 }
 
 .footer__item-lang {
-  color: #1B1C21;
-  font-size: 16px;
-  letter-spacing: -0.2px;
-  line-height: 24px;
-  display: flex;
-  justify-content: space-between;
+	color: #1B1C21;
+	font-size: 16px;
+	letter-spacing: -0.2px;
+	line-height: 24px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .footer__lang-ru {
-  color: #7E7E82;
+	color: #7E7E82;
 }
 
 .footer__lang-ch {
-  flex-basis: 70%;
+	flex-basis: 70%;
 }
 
 
 
 .footer__link-mail {
-  text-decoration: none;
+	text-decoration: none;
 color: #1B1C21;
 }
 .footer__link-tel {
 text-decoration: none;
 color: #1B1C21;
 }
+
+
