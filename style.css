@@ -30,7 +30,7 @@
 .header__icon-burger {
 	width: 40px;
 	height: 40px;
-	background-image: url(./img/burger.svg);
+	background-image: url(../im);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@
 	width: 100px;
 	height: 60px;
 	margin-left: 12px;
-	background-image: url(./img/cps.svg);
+	background-image: url(../img/cps.svg);
 	background-repeat: no-repeat;
 }
 
@@ -219,7 +219,7 @@
         background-image: url(../img/highlight.svg);
         position: absolute;
         left: -35px;
-        top: -5px;
+        top: 30px;
 	}
 }
 
