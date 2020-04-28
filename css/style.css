@@ -1,5 +1,4 @@
 
-
 /* ? header styles start */
 
 .body {
@@ -10,13 +9,18 @@
 	min-width: 320px;
 	position: relative;
 }
-
 .header {
-	display: flex;
-	width: 100%;
+
 	box-sizing: border-box;
 	background-color: #FFFFFF;
 	box-shadow: 0 4px 0 -2px #D9FFF5;
+	width: 100%;
+
+}
+
+.icon {
+	display: flex;
+	box-sizing: border-box;
 	align-items: center;
 	padding: 20px;
 }
@@ -108,7 +112,7 @@
 	display: none;
 }
 
-.header__divider-1 {
+.header__divider--1 {
 	display: none;
 }
 
@@ -121,7 +125,7 @@
 		margin-left: auto;
 	}
 
-	.header__divider-1 {
+	.header__divider--1 {
 		display: block;
 	}
 
@@ -137,7 +141,7 @@
 		 display: flex;
 	}
 
-	.header__divider-1 {
+	.header__divider--1 {
 		display: block;
 	}
 
@@ -175,7 +179,7 @@
 		 margin-left: 40px;
 	}
 
-	.header__divider-2 {
+	.header__divider--2 {
 		display: none;
 	}
 }
@@ -478,3 +482,4 @@ html, .body {
 
 
 /* ? main styles end */
+
