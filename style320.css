@@ -1,8 +1,9 @@
 .body {
     font-family: "TT Lakes";
     background-color: #f8f8f8;
-    margin: 0;
-    box-sizing: border-box;
+	 margin: 0;
+	 box-sizing: border-box;
+	 height: 100%;
    
 }
 
@@ -81,7 +82,8 @@
     cursor: pointer;
 }
 .menu {
-    width: 272px;
+	 width: 272px;
+	 height: 100%;
     background-color: #ffffff;
     position: absolute;
     left: 0;
