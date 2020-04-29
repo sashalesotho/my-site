@@ -31,20 +31,25 @@
 	align-items: center;
 }
 
-.header__icon-burger {
+.icon--burger {
 	width: 40px;
 	height: 40px;
 	background-image: url(../img/burger.svg);
-	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.header__logo {
+.logo--cps {
 	width: 100px;
 	height: 60px;
-	margin-left: 12px;
-	background-image: url(../img/cps.svg);
+	background-image: url(../img/logo.svg);
 	background-repeat: no-repeat;
+}
+.header__logo,
+.header__icon-chat,
+.header__icon-profile,
+.header__icon-checkstatus
+ {
+	margin-left: 12px;
 }
 
 .header__divider {
@@ -60,27 +65,26 @@
 	 align-items: center;
 }
 
-.header__icon-call {
-	width: 40px;
+.icon--call {
+  width: 40px;
   height: 40px;
   background-image: url(../img/call.svg);
   background-repeat: no-repeat;
 }
 
-.header__icon-chat {
+.icon--chat {
 	width: 40px;
   height: 40px;
   background-image: url(../img/chat.svg);
 	background-repeat: no-repeat;
-	margin-left: 12px;
 }
 
-.header__icon-profile {
+.icon--profile {
 	width: 40px;
   height: 40px;
   background-image: url(../img/profile.svg);
 	background-repeat: no-repeat;
-	margin-left: 12px;
+
 }
 
 .header__setting {
@@ -89,7 +93,7 @@
 	margin-left: auto;
 }
 
-.header__icon-repair {
+.icon--repair {
 	width: 40px;
 	height: 40px;
 	background-image: url(../img/repair.svg);
@@ -100,12 +104,11 @@
 	display: none;
 }
 
-.header__icon-checkstatus {
+.icon--checkstatus {
 	width: 40px;
 	height: 40px;
 	background-image: url(../img/checkstatus.svg);
 	background-repeat: no-repeat;
-	margin-left: 12px;
 }
 
 .header__contacts {
