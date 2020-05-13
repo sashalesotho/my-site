@@ -1,41 +1,3 @@
-html,
-.body {
-    font-family: "TT Lakes";
-    position: relative;
-    height: 100%;
-    bottom: 0;
-    overflow: hidden;
-}
-.body {
-    margin: 0;
-    padding: 0;
-    background: #f2f2f2;
-}
-.head {
-    background: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
-    padding: 16px;
-    margin-bottom: 16px;
-    padding-left: 4%;
-}
-.head__el {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #7e7e82;
-    text-transform: uppercase;
-}
-@media (min-width: 768px) {
-    .head {
-        background-image: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
-    }
-}
- 
-@media (min-width: 1120px) {
-    .head {
-        background-image: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
-    }
-}
-
 /* swiper */
 
 .swiper-container {
@@ -98,6 +60,46 @@ html,
 }
 /* swiper end */
 
+
+html,
+.body {
+    font-family: "TT Lakes";
+    position: relative;
+    height: 100%;
+    bottom: 0;
+    overflow: hidden;
+}
+.body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+.head {
+    background: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
+    padding: 16px;
+    margin-bottom: 16px;
+    padding-left: 4%;
+}
+.head__el {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7e7e82;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .head {
+        background-image: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+    }
+}
+ 
+@media (min-width: 1120px) {
+    .head {
+        background-image: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
+    }
+}
+
+
 .go {
 	background-image: url(img_1.5/go.svg);
 	background-repeat: no-repeat;
@@ -107,7 +109,7 @@ html,
 	width: 50px;
 	height: 50px;
 }
-.brand-logo__link_down {
+.brand-logo__link--down {
 	display: none;
 }
 @media (min-width: 768px) {
@@ -121,7 +123,7 @@ html,
 		 top: 5px;
 		 left: -20px;
 	}
-	.brand-logo__link_down {
+	.brand-logo__link--down {
 		 display: block;
 	}
 .swiper-wrapper {
@@ -149,11 +151,11 @@ html,
 		 align-content: flex-start;
 		 
 	}
-	.brand-logo__el , .brand-logo__el_click {
+	.brand-logo__el , .brand-logo__el--click {
 		 border: 1px solid #EAEAEA;
 	}
 
-	.brand-logo__el_lg {
+	.brand-logo__el--lg {
 		 display: none;
 	}
 	.brand-logo__el_click {
@@ -167,7 +169,7 @@ html,
 		 margin-top: -10px;
 	}
 
-	.brand-logo__el_sm {
+	.brand-logo__el--sm {
 		 display: block;
 		 border-radius: 6px;
 		 box-sizing: border-box;
@@ -179,7 +181,7 @@ html,
 		 background-color: #fff;
 		 padding: 10px;
 	}
-	.brand-logo__link-block_down {
+	.brand-logo__link-block--down {
 		 flex-basis: 90%;
 		 margin-top: 90px;
 	}
@@ -192,52 +194,52 @@ html,
 		 position: relative;
 	}
 
-	.brand-logo__link-block_up {
+	.brand-logo__link-block--up {
 		 flex-basis: 85%;
 	}
 
-	.brand-logo__el_click-last {
+	.brand-logo__el--click-last {
 		 flex-basis: 27%;
 		 position: relative;
 		 left: -33%;
 		 
 	}
-	.brand-logo__el_sony {
+	.brand-logo__el--sony {
 		 position: relative;
 		 left: -5px;
 	}
 }
 @media (min-width: 805px) {
-	.brand-logo__link-block_up {
+	.brand-logo__link-block--up {
 		 flex-basis: 83%;
 	}
 }
 @media (min-width: 900px) {
-	.brand-logo__el_sm {
+	.brand-logo__el--sm {
 		 flex-basis: 27%;
 	}
-	.brand-logo__el_click {
+	.brand-logo__el--click {
 		 flex-basis: 25%;
 	}
-	.brand-logo__el_click-last {
+	.brand-logo__el--click-last {
 		 left: -32%;
 	}
-	.brand-logo__el_sony {
+	.brand-logo__el--sony {
 		 left: -5px;
 	}
 }
 @media (min-width: 1120px) {
-	.brand-logo__link-block_up {
+	.brand-logo__link-block--up {
 		 flex-basis: 90%;
 	}
-	.brand-logo__link-block_down {
+	.brand-logo__link-block--down {
 		 flex-basis: 90%;
 	}
 
-	.brand-logo__el_sm {
+	.brand-logo__el--sm {
 		 display: none;
 	}
-	.brand-logo__el_lg {
+	.brand-logo__el--lg {
 		 display: block;
 		 border-radius: 6px;
 		 box-sizing: border-box;
@@ -249,20 +251,20 @@ html,
 		 background-color: #fff;
 		 padding: 10px;
 	}
-	.brand-logo__el_click-disabled {
+	.brand-logo__el--click-disabled {
 		 display: none !important;
 	}
-	.brand-logo__el_click {
+	.brand-logo__el--click {
 		 flex-basis: 21%;
 	}
-	.brand-logo__el_click-last {
+	.brand-logo__el--click-last {
 		 position: static;
 		 margin-right: 25%;
 	}
-	.brand-logo__el_click-samsung {
+	.brand-logo__el--click-samsung {
 		 position: relative;
 	}
-	.brand-logo__el_sony {
+	.brand-logo__el--sony {
 		 position: relative;
 		 left: 0.1%;
 	}

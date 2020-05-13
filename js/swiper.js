@@ -33,7 +33,7 @@ let imgBosch = document.querySelector('.brand-logo__img--bosch');
 let imgHp = document.querySelector('.brand-logo__img--hp');
 let imgAcer = document.querySelector('.brand-logo__img--acer');
 let imgView = document.querySelector('.brand-logo__img--viewSonic');
-let imgSonyDisabled = document.querySelector('.brand-logo__el-click-disabled');
+let imgSonyDisabled = document.querySelector('.brand-logo__el--click-disabled');
 if (matchMedia) {
 	const mq = window.matchMedia('(min-width: 1120px)');
 	mq.addListener(screenTest);
