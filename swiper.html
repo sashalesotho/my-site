@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>services</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+	<link rel="stylesheet" href="swiper-5.3.8/package/js/swiper.min.js">
+	<link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
+	<link rel="stylesheet" href="swiper.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+</head>
+
+<body class="body">
+	<div class="head ">
+		<h3 class="head__el">Ремонт техники различных брендов</h3>
+	</div>
+
+
+	<div class="swiper-container">
+		<div class="swiper-wrapper brand-logo">
+			<div class="swiper-slide brand-logo__el brand-logo__el_lenovo brand-logo__el_sm brand-logo__el_lg">
+				<img src="img_1.5/lenovo.svg" alt="lenovo" class='brand-logo__img_lenovo'>
+				<div class="go"></div>
+			</div>
+
+			<div class="swiper-slide brand-logo__el brand-logo__el_samsung brand-logo__el_sm brand-logo__el_lg">
+				<img src="img_1.5/samsung.svg" alt="samsung" class='brand-logo__img_samsung'>
+				<div class="go"></div>
+			</div>
+
+			<div class="swiper-slide brand-logo__el brand-logo__el_sm brand-logo__el_apple brand-logo__el_lg">
+				<img src="img_1.5/apple.svg" alt="apple" class="brand-logo__img_apple">
+				<div class="go"></div>
+			</div>
+
+			<div class="swiper-slide brand-logo__el brand-logo__el_sm  brand-logo__el_bosch  brand-logo__el_lg">
+				<img src="img_1.5/bosch.svg" alt="bosch" class="brand-logo__img_bosch">
+				<div class="go"></div>
+			</div>
+
+			<div class="swiper-slide brand-logo__el brand-logo__el_sm brand-logo__el_hp brand-logo__el_lg">
+				<img src="img_1.5/hp.svg" alt="hp" class="brand-logo__img_hp">
+				<div class="go"></div>
+			</div>
+
+			<div class="swiper-slide brand-logo__el brand-logo__el_sm brand-logo__el_acer brand-logo__el_lg">
+				<img src="img_1.5/acer.svg" alt="acer" class="brand-logo__img_acer">
+				<div class="go"></div>
+			</div>
+
+			<div class="swiper-slide brand-logo__el brand-logo__el_lg brand-logo__el_viewSonic">
+				<img src="img_1.5/viewSonic.svg" alt="viewSonic" class="brand-logo__img_viewSonic">
+				<div class="go"></div>
+			</div>
+
+			<div class="swiper-slide brand-logo__el brand-logo__el_lg brand-logo__el_sony">
+				<img src="img_1.5/sony.svg" alt="sony" class="brand-logo__img_sony">
+				<div class="go"></div>
+			</div>
+
+			<div class="  brand-logo__link-block brand-logo__link-block_down">
+				<a href="#" class="brand-logo__link brand-logo__link_down pseudo-el-down">Показать все</a>
+			</div>
+
+			<div class="  brand-logo__el brand-logo__el_click brand-logo__el_click-disabled brand-logo__el_sony">
+				<img src="img_1.5/sony.svg" alt="sony" class='width-img'>
+				<div class="go"></div>
+			</div>
+
+			<div class="  brand-logo__el brand-logo__el_click brand-logo__el_len">
+				<img src="img_1.5/lenovo.svg" alt="lenovo" class='width-img'>
+				<div class="go"></div>
+			</div>
+
+			<div class=" brand-logo__el brand-logo__el_click brand-logo__el_click-samsung ">
+				<img src="img_1.5/samsung.svg" alt="samsung" class='width-img'>
+				<div class="go"></div>
+			</div>
+
+			<div class="
+            brand-logo__el brand-logo__el_click  brand-logo__el_click-last">
+				<img src="img_1.5/apple.svg" alt="apple">
+				<div class="go"></div>
+			</div>
+			<div class="brand-logo__link-block brand-logo__link-block_up">
+				<a href="#" class="brand-logo__link brand-logo__link_up pseudo-el-up"> Скрыть </a>
+			</div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+
+
+
+
+	<script src="swiper-5.3.8/package/js/swiper.min.js"></script>
+	<script src="js/swiper.js"></script>
+	<script>
+
+		var swiper = undefined;
+		function initSwiper() {
+			var screenWidth = $(window).width();
+			if (screenWidth < 768 && swiper == undefined) {
+				swiper = new Swiper('.swiper-container', {
+					slidesPerView: 2,
+					slidesOffsetBefore: 16,
+					slidesOffsetAfter: 150,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+					breakpoints: {
+						319: {
+							slidesPerView: 1.3,
+
+						},
+						350: {
+							slidesPerView: 1.4,
+						},
+						400: {
+							slidesPerView: 1.7,
+
+						},
+						450: {
+							slidesPerView: 1.8,
+
+						},
+						500: {
+							slidesPerView: 2,
+						},
+						550: {
+							slidesPerView: 2.2,
+						},
+						600: {
+							slidesPerView: 2.4,
+						},
+						650: {
+							slidesPerView: 2.6
+						},
+						700: {
+							slidesPerView: 2.8,
+						},
+						750: {
+							slidesPerView: 3,
+						},
+
+
+					}
+				});
+			} else if (screenWidth > 768 && swiper != undefined) {
+				swiper.destroy();
+				swiper = undefined;
+				jQuery('.swiper-wrapper').removeAttr('style');
+				jQuery('.swiper-slide').removeAttr('style');
+			}
+		}
+
+		initSwiper();
+
+		$(window).on('resize', function () {
+			initSwiper();
+		})
+
+
+
+	</script>
+</body>
+
+</html>

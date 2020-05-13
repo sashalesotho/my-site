@@ -1,0 +1,271 @@
+html,
+.body {
+    font-family: "TT Lakes";
+    position: relative;
+    height: 100%;
+    bottom: 0;
+    overflow: hidden;
+}
+.body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+.head {
+    background: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
+    padding: 16px;
+    margin-bottom: 16px;
+    padding-left: 4%;
+}
+.head__el {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7e7e82;
+    text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    .head {
+        background-image: linear-gradient(90deg, #f8f8f8 1.39%, #ffffff 100%);
+    }
+}
+ 
+@media (min-width: 1120px) {
+    .head {
+        background-image: linear-gradient(270deg, #f8f8f8 0%, #ffffff 98.61%);
+    }
+}
+
+/* swiper */
+
+.swiper-container {
+	width: 100%;
+	height: 30%;
+	margin-top: -86px;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	width: 240px;
+	height: 72px;
+	position: relative;
+	top: 90px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-pagination-bullet {
+	background-color: #dddddd;
+	opacity: 1;
+	width: 12px;
+	height: 12px;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: #b5b6bc;
+}
+
+.swiper-slide {
+	background-color: #ffffff;
+	margin-left: 16px;
+	border-radius: 6px;
+	border: 1px solid #EAEAEA;
+	justify-content: space-around;
+	align-items: center;
+}
+@media (min-width: 768px) {
+	.swiper-slide {
+		 margin-left: 0;
+		 width: auto;
+		 height: auto;
+		 
+	}
+
+	.swiper-container {
+		 height: 100%;
+	}
+}
+/* swiper end */
+
+.go {
+	background-image: url(img_1.5/go.svg);
+	background-repeat: no-repeat;
+	position: relative;
+	/* align-self: center; */
+	top: 5px;
+	width: 50px;
+	height: 50px;
+}
+.brand-logo__link_down {
+	display: none;
+}
+@media (min-width: 768px) {
+	.pseudo-el-down::before {
+		 content: "";
+		 background-image: url(img_1.5/expand-down.svg);
+		 background-repeat: no-repeat;
+		 width: 50px;
+		 height: 40px;
+		 position: absolute;
+		 top: 5px;
+		 left: -20px;
+	}
+	.brand-logo__link_down {
+		 display: block;
+	}
+.swiper-wrapper {
+		 margin-left: 0;
+	}
+	.pseudo-el-up::before {
+		 content: "";
+		 background-image: url(img_1.5/expand.svg);
+		 position: absolute;
+		 background-repeat: no-repeat;
+		 width: 50px;
+		 height: 40px;
+		 top: 5px;
+		 left: -20px;
+		 color: #1b1c21;
+		 font-weight: 500;
+		 font-size: 16px;
+	}
+
+	.brand-logo {
+		 display: flex;
+		 flex-wrap: wrap;
+		 justify-content: space-evenly;
+		 margin-top: 24px;
+		 align-content: flex-start;
+		 
+	}
+	.brand-logo__el , .brand-logo__el_click {
+		 border: 1px solid #EAEAEA;
+	}
+
+	.brand-logo__el_lg {
+		 display: none;
+	}
+	.brand-logo__el_click {
+		 margin-bottom: 25px;
+		 display: flex;
+		 justify-content: space-between;
+		 background-color: #fff;
+		 padding: 10px;
+		 flex-basis: 27%;
+		 border-radius: 6px;
+		 margin-top: -10px;
+	}
+
+	.brand-logo__el_sm {
+		 display: block;
+		 border-radius: 6px;
+		 box-sizing: border-box;
+		 margin-bottom: 20px;
+		 flex-basis: 30%;
+		 height: 72px;
+		 display: flex;
+		 justify-content: space-between;
+		 background-color: #fff;
+		 padding: 10px;
+	}
+	.brand-logo__link-block_down {
+		 flex-basis: 90%;
+		 margin-top: 90px;
+	}
+	.brand-logo__link {
+		 text-decoration: none;
+		 color: #1b1c21;
+		 font-size: 16px;
+		 line-height: 24px;
+		 font-style: normal;
+		 position: relative;
+	}
+
+	.brand-logo__link-block_up {
+		 flex-basis: 85%;
+	}
+
+	.brand-logo__el_click-last {
+		 flex-basis: 27%;
+		 position: relative;
+		 left: -33%;
+		 
+	}
+	.brand-logo__el_sony {
+		 position: relative;
+		 left: -5px;
+	}
+}
+@media (min-width: 805px) {
+	.brand-logo__link-block_up {
+		 flex-basis: 83%;
+	}
+}
+@media (min-width: 900px) {
+	.brand-logo__el_sm {
+		 flex-basis: 27%;
+	}
+	.brand-logo__el_click {
+		 flex-basis: 25%;
+	}
+	.brand-logo__el_click-last {
+		 left: -32%;
+	}
+	.brand-logo__el_sony {
+		 left: -5px;
+	}
+}
+@media (min-width: 1120px) {
+	.brand-logo__link-block_up {
+		 flex-basis: 90%;
+	}
+	.brand-logo__link-block_down {
+		 flex-basis: 90%;
+	}
+
+	.brand-logo__el_sm {
+		 display: none;
+	}
+	.brand-logo__el_lg {
+		 display: block;
+		 border-radius: 6px;
+		 box-sizing: border-box;
+		 margin-bottom: 20px;
+		 flex-basis: 23%;
+		 height: 72px;
+		 display: flex;
+		 justify-content: space-between;
+		 background-color: #fff;
+		 padding: 10px;
+	}
+	.brand-logo__el_click-disabled {
+		 display: none !important;
+	}
+	.brand-logo__el_click {
+		 flex-basis: 21%;
+	}
+	.brand-logo__el_click-last {
+		 position: static;
+		 margin-right: 25%;
+	}
+	.brand-logo__el_click-samsung {
+		 position: relative;
+	}
+	.brand-logo__el_sony {
+		 position: relative;
+		 left: 0.1%;
+	}
+	
+	
+}
