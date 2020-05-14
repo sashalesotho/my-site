@@ -120,8 +120,8 @@ html,
 		 width: 50px;
 		 height: 40px;
 		 position: absolute;
-		 top: 5px;
-		 left: -20px;
+		 top: 0px;
+		 left: -25px;
 	}
 	.brand-logo__link--down {
 		 display: block;
@@ -136,8 +136,8 @@ html,
 		 background-repeat: no-repeat;
 		 width: 50px;
 		 height: 40px;
-		 top: 5px;
-		 left: -20px;
+		 top: 0px;
+		 left: -25px;
 		 color: #1b1c21;
 		 font-weight: 500;
 		 font-size: 16px;
