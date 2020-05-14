@@ -158,7 +158,7 @@ html,
 	.brand-logo__el--lg {
 		 display: none;
 	}
-	.brand-logo__el_click {
+	.brand-logo__el--click {
 		 margin-bottom: 25px;
 		 display: flex;
 		 justify-content: space-between;
